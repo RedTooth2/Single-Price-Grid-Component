@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla';
+}
+
+.container {
+  background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 700px;
+}
+
+.wrapper {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 600px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.4);
+}
+
+.upper-col {
+  background-color: white;
+  flex: 1;
+  padding: 3rem 3rem 3rem 3rem;
+  width: 100%;
+}
+
+.upper-col h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.upper-col h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.upper-col h5 {
+  font-size: 1.5rem;
+  width: 450px;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.lower-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.lower-col .col1 {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.col1 {
+  padding: 4rem;
+  padding-left: 5rem;
+  color: white;
+}
+
+.col1 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.price-month {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.price-month h1 {
+  font-size: 2.8rem;
+  margin-right: 10px;
+}
+
+.price-month p {
+  font-size: 1.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.col1 .access {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.col1 button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 7.5rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lower-col .col2 {
+  background-color: hsl(179, 62%, 46%);
+  flex: 1;
+  color: white;
+}
+
+.col2 {
+  padding: 4rem;
+  padding-left: rem;
+  color: white;
+}
+
+.col2 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.col2 p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: hsl(204, 43%, 93%);
+}
+
+@media only screen and (min-width: 1100px) {
+  .wrapper {
+    width: 920px;
+  }
+  .upper-col {
+    width: 100%;
+  }
+
+  .upper-col h5 {
+    width: 800px;
+  }
+  .lower-col {
+    flex-direction: row;
+  }
+}
